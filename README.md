@@ -5,7 +5,6 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/owasp_juiceshop.svg?style=social&label=Follow)](https://twitter.com/owasp_juiceshop)
 [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/owasp_juiceshop?style=social)](https://reddit.com/r/owasp_juiceshop)
 
-
 ![CI/CD Pipeline](https://github.com/bkimminich/juice-shop/workflows/CI/CD%20Pipeline/badge.svg?branch=master)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f6959582d3acc8bc2607/test_coverage)](https://codeclimate.com/github/bkimminich/juice-shop/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f6959582d3acc8bc2607/maintainability)](https://codeclimate.com/github/bkimminich/juice-shop/maintainability)
