@@ -13,6 +13,7 @@ jobs:
   semgrep:
     name: Scan
     runs-on: ubuntu-latest
+    if: (github.actor != 'dependabot[bot]' && github.actor != 'snyk-bot')
     steps:
       # Checkout project source
       - uses: actions/checkout@v2
