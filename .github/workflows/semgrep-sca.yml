@@ -17,6 +17,6 @@ jobs:
       image: returntocorp/semgrep
     steps:
       - uses: actions/checkout@v3
-      - run: semgrep ci --sca
+      - run: semgrep ci --sca || [ $? == 1 ]
         env:
           SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
