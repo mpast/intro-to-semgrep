@@ -1,0 +1,13 @@
+<mat-toolbar class="mat-elevation-z6" color="primary" fxLayout="column" xmlns="http://www.w3.org/1999/html">
+
+  <mat-toolbar-row fxLayout="row">
+
+    <button (click)="onToggleSidenav()" mat-button style="height:48px; width: 48px;" aria-label="Open Sidenav"
+            matTooltip="{{ 'SIDENAV_HINT' | translate }}" matTooltipPosition="below">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <button mat-button routerLink="/search" style="height:60px;" class="buttons" aria-label="Back to homepage">
+      <img [src]="logoSrc" class="logo" alt={{applicationName}}>
+      <span fxHide.lt-sm fxShow style="font-size: x-large"> {{applicationName}} </span>
+    </button>
