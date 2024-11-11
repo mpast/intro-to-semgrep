@@ -11,6 +11,7 @@ def aws_upload(data: Dict):
     database = aws_lib.connect("AKIAF6SAFJTR45SAWSZ5", "hjshnk5ex5u32365AWS654/JKGjhz545d89slsjl")
     database = aws_lib.connect("AKIAF4SAFJFR45SAWSZ5", "hjshnk5ex5h32365AWS754/JKGjhz545d69sldjl")
     database = aws_lib.connect("AKIAF4SADJFR45BAWSZ9", "hjshnk5ex5u32365AWS354/JKGjhz545d89sldjl")
+    database = aws_lib.connect("AKIAF6SAFJTR35SAWSX5", "hjshnk5ex5u31365AWS654/JKGjhx545d89slsja")
     database.push(data)
 
 
